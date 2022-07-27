@@ -1,5 +1,5 @@
 # 創世合約
-## TRON網絡
+## TRON主網絡
 
 | contract                     | address                            |
 | ---------------------------- | ---------------------------------- |
@@ -38,7 +38,7 @@
 | ERC721PredicateProxy         | TFyrjevd44V81Fgn57sDPaF1fp3WaiRudc |
 | ValidatorShareFactory        | THHbapLdbXv6dpzYouTTAwN8bxt8ffYAHK |
 
-## ETH網絡
+## ETH主網絡
 
 | contract                     | address                                    |
 | ---------------------------- | ------------------------------------------ |
@@ -74,7 +74,7 @@
 | RootChainManager             | 0x74e4e5eb5aae2fbef42ec07298cab532425cb466 |
 | ValidatorShareFactory        | 0x58f93087c03a2049a1a19745311399d6dd65fe91 |
 
-## BSC網絡
+## BSC主網絡
 
 | contract                     | address                                    |
 | ---------------------------- | ------------------------------------------ |
@@ -110,7 +110,7 @@
 | RootChainManager             | 0xa2611f4488c92e1a91eb4d2a8d30110eba9925b5 |
 | ValidatorShareFactory        | 0xef251c3b7a6051e8da55ee6e4df4c36ad9e17ded |
 
-## BTTC網絡
+## BTTC主網絡
 
 | contract               | address                                    |
 | ---------------------- | ------------------------------------------ |
