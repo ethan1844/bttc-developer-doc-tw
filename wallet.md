@@ -15,8 +15,8 @@ TronLink是功能最全面的去中心化TRON錢包，支持波場的全部常�
 
 我們推薦使用TronLink來管理您在TRON網絡上的資產。關於TronLink的集成，請參照TRON官方文檔：
 
-* [TronWeb入門](https://cn.developers.tron.network/docs/%E5%85%A5%E9%97%A8_new)
-* [TronLink集成](https://cn.developers.tron.network/docs/%E4%BB%8B%E7%BB%8D-2)
+* [TronWeb入門](https://cn.developers.tron.network/docs/dapp-development-tools-tronweb)
+* [TronLink集成](https://cn.developers.tron.network/docs/dapp-integrate-with-tronlink-introduction)
 
 ## MetaMask
 
