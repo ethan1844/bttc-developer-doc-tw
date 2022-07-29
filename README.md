@@ -11,13 +11,13 @@ BitTorrent Chain（以下簡稱BTTC）是波場首個異構鏈跨鏈互操作擴
 ## 在BTTC網絡上進行開發
 以太坊區塊鏈上的工具都在BTTC上得到了開箱即用的支持。例如，Truffle、Remix和Web3js等等。如果開發者有Ethereum開發經驗，則開發者可以直接在BTTC Donau測試網絡或主網絡上部署去中心化的應用程序。
 
-可以在這里的[網絡文檔](https://)中找到所有與BTTC網絡相關的細節。
+可以在這里的[網絡文檔](https://bittorrent-chain.gitbook.io/tw.bttc-docs/network)中找到所有與BTTC網絡相關的細節。
 ### wallet
-BTTC兼容EVM（Ethereum虛擬機），為了與BTTC網絡互動，開發者首先需要有一個基於Ethereum的錢包，可以選擇[Metamask](https://docs.polygon.technology/docs/develop/metamask/overview)錢包或其他支持EVM的錢包。
+BTTC兼容EVM（Ethereum虛擬機），為了與BTTC網絡互動，開發者首先需要有一個基於Ethereum的錢包，可以選擇[Metamask](https://metamask.io/)錢包或其他支持EVM的錢包。
 ### 智能合約
-開發者可以通過[Remix](https://docs.polygon.technology/docs/develop/remix)、[Truffle](https://docs.polygon.technology/docs/develop/truffle)、[Hardhat](https://docs.polygon.technology/docs/develop/hardhat)等工具來測試、編譯、調試和部署去中心化的應用程序到BTTC網絡。
+開發者可以通過[Remix](https://remix.ethereum.org/)、[Truffle](https://trufflesuite.com/)、[Hardhat](https://hardhat.org/)等工具來測試、編譯、調試和部署去中心化的應用程序到BTTC網絡。
 ### 鏈接到BTTC網絡
-開發者可以將BTTC網絡添加到[Metamask](https://docs.polygon.technology/docs/develop/metamask/overview)，它允許開發者使用RPC連接到BTTC網絡。
+開發者可以將BTTC網絡添加到[Metamask](https://metamask.io/)，它允許開發者使用RPC連接到BTTC網絡。
 > 注:
 > 開發者同時可以在web3.js中使用相同的RPC來鏈接BTTC網絡。
 
@@ -30,11 +30,11 @@ const web3 = new Web3('https://rpc.bt.io')
 
 ### 如何在BTTC上開發一個新的dApp？
 如果開發者沒有構建去中心化應用程序（dApps）的經驗，下面是一些資源鏈接，可以讓開發者對構建、調試和部署去中心化應用程序（dApps）到BTTC網絡所需的工具有大概了解。
-* [Demo: Build a dApp on BTTC](https://)
-* [Web3.js](https://www.dappuniversity.com/articles/web3-js-intro)
+* [Demo: Build a dApp on BTTC](https://](https://bittorrent-chain.gitbook.io/tw.bttc-docs/build-web3-app)
+* [Web3.js](https://web3js.readthedocs.io/en/v1.7.4/)
 * [Ethers.js](https://docs.ethers.io/v5/)
-* [Remix](https://docs.polygon.technology/docs/develop/remix/)
-* [Truffle](https://docs.polygon.technology/docs/develop/truffle)
-* [Metamask](https://docs.polygon.technology/docs/develop/metamask/overview)
+* [Remix](https://remix.ethereum.org/)
+* [Truffle](https://trufflesuite.com/)
+* [Metamask](https://metamask.io/)
 ### 將已有dApp遷移至BTTC網絡
 BTTC與EVM兼容，因此開發者不必擔心底層架構。開發者可以輕松的從基於Ethereum虛擬機（EVM）的鏈上遷移至BTTC網絡。
