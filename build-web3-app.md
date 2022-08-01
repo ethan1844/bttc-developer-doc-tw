@@ -187,7 +187,7 @@ mapping(uint256 => Tracking) public trackings;
 
 打開MetaMask錢包，並在如圖的下拉選單中選擇Custom RPC
 
-![](https://i.imgur.com/nqp3gkH.png)
+<img src=https://i.imgur.com/nqp3gkH.png width=50% />
 
 
 按照圖中的信息填寫：
@@ -213,7 +213,7 @@ mapping(uint256 => Tracking) public trackings;
 
 點擊Deploy後，MetaMask會彈出交易確認的窗口
 
-![](https://i.imgur.com/QauVYqE.png)
+<img src=https://i.imgur.com/QauVYqE.png width=50% />
 
 
 恭喜，Library合約已經成功部署到了BTTC的測試網，現在您可以與它進行交互了，同時可以在瀏覽器上檢查它的狀態。
