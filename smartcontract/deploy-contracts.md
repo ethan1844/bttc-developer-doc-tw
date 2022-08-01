@@ -4,11 +4,11 @@
 Remix是一個在線的智能合約IDE，可以用與編寫、編譯以及部署合約。
 如果這是您首次使用Remix，需要在插件一欄中，找到“Solidity compiler”，並激活它，如下圖
 
-![](https://i.imgur.com/BFprOBG.png)
+![](https://i.imgur.com/Q9GNT2X.png)
 
 點擊圖中圈出的按鈕，創建一個新文件，命名為HelloWorld.sol，並將下面的代碼覆制粘貼到這個文件中。
 
-![](https://i.imgur.com/iTedpga.png)
+![](https://i.imgur.com/3dut2ZI.png)
 
 ### HelloWorld.sol
 
@@ -45,14 +45,14 @@ contract HelloWorld {
 
 點擊Compile HelloWorld.sol。編譯成功時，編譯器圖標會有綠色的對勾，如圖所示。
 
-![](https://i.imgur.com/XNYEsGM.png)
+![](https://i.imgur.com/z1LVf9j.png)
 
 
 ### 網絡設置
 
 打開MetaMask錢包，並在如圖的下拉選單中選擇Custom RPC
 
-![](https://i.imgur.com/RzNmbtC.png)
+![](https://i.imgur.com/kOElXb8.png)
 
 
 按照圖中的信息填寫：
@@ -63,12 +63,12 @@ contract HelloWorld {
 * 符號（Symbol）：BTT
 * 區塊瀏覽器URL（Block Explorer URL）：https://testscan.bt.io/
 
-![](https://i.imgur.com/5f34Tme.png)
+![](https://i.imgur.com/OSjUpGK.png)
 
 
 添加完成後的界面如下圖所示
 
-![](https://i.imgur.com/p6pGbpF.png)
+![](https://i.imgur.com/ZHeLXu3.png)
 
 圖中的測試賬戶已經預先存入了一些測試幣。請前往水龍頭來獲取測試BTT。
 
@@ -78,19 +78,19 @@ contract HelloWorld {
 
 首先，在Remix的DEPLOY & RUN TRANSACTIONS欄中，從Environment的下拉菜單里選擇Injected Web3
 
-![](https://i.imgur.com/zG0J7ge.png)
+![](https://i.imgur.com/xysWpxE.png)
 
 
 在Deploy旁邊的輸入框中，輸入初始的Greeting內容
 
-![](https://i.imgur.com/rZzofHN.png)
+![](https://i.imgur.com/r7fnEgw.png)
 
 
 點擊Deploy後，MetaMask會彈出交易確認的窗口
 
-![](https://i.imgur.com/j5fSmxg.png)
+![](https://i.imgur.com/wlG3tuU.png)
 
 
 恭喜，HelloWorld合約已經成功部署到了BTTC的測試網，現在您可以與它進行交互了，同時可以再瀏覽器上檢查它的狀態。
 
-![](https://i.imgur.com/DIxheNu.png)
+![](https://i.imgur.com/pLyk4zp.png)
