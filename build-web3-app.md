@@ -187,7 +187,7 @@ mapping(uint256 => Tracking) public trackings;
 
 打開MetaMask錢包，並在如圖的下拉選單中選擇Custom RPC
 
-![](https://i.imgur.com/TKqOTXC.png)
+![](https://i.imgur.com/nqp3gkH.png)
 
 
 按照圖中的信息填寫：
@@ -198,22 +198,22 @@ mapping(uint256 => Tracking) public trackings;
 * 符號（Symbol）：BTT
 * 區塊瀏覽器URL（Block Explorer URL）：https://testscan.bt.io/
 
-![](https://i.imgur.com/eN4Eq1D.png)
+![](https://i.imgur.com/1kW29Jk.png)
 
 
 首先，在Remix的DEPLOY & RUN TRANSACTIONS欄中，從Environment的下拉菜單里選擇Injected Web3
 
-![](https://i.imgur.com/1Hj89xm.png)
+![](https://i.imgur.com/UKBvUsJ.png)
 
 
 選擇0.8.0以及更高版本的編譯器
 
-![](https://i.imgur.com/EjGudp6.png)
+![](https://i.imgur.com/NHTCGyb.png)
 
 
 點擊Deploy後，MetaMask會彈出交易確認的窗口
 
-![](https://i.imgur.com/1YKyB6Z.png)
+![](https://i.imgur.com/QauVYqE.png)
 
 
 恭喜，Library合約已經成功部署到了BTTC的測試網，現在您可以與它進行交互了，同時可以在瀏覽器上檢查它的狀態。
@@ -335,24 +335,24 @@ npm run dev
 
 在瀏覽器地址欄輸入：localhost:3000，查看前端頁面。
 
-![](https://i.imgur.com/3UOBYAl.png)
+![](https://i.imgur.com/77Ke016.png)
 
 
 點擊右上角的”Rent Your Books”按鈕，發布一條圖書租賃信息。信息包括，圖書名稱，圖書簡要描述，圖書借閱一天的價格。
 
-![](https://i.imgur.com/TVuUxbW.png)
+![](https://i.imgur.com/orOAorA.png)
 
 
 信息填寫完成後，點擊”Submit”按鈕，這些信息將發送給library合約的addBook函數，創建了一條觸發合約的交易，然後將出現Metamask的彈框，要求確認並簽名，如下所示：
 
-![](https://i.imgur.com/iKef347.png)
+![](https://i.imgur.com/CuSCj6p.png)
 
 
 交易成功上鏈後，這條租賃信息將顯示到頁面上：
 
-![](https://i.imgur.com/WHIH0Yt.png)
+![](https://i.imgur.com/2sc1drT.png)
 
 
 點擊”View”可查看書籍詳細信息， 選擇租賃的時間段，租賃的價格為：每天的租賃價格*租賃天數。點擊”Lent Now”發起租賃請求。將觸發library合約的borrowBook函數調用。同樣需要簽名及廣播，然後完成租賃交易。
 
-![](https://i.imgur.com/av00Pbe.png)
+![](https://i.imgur.com/2x339yL.png)
