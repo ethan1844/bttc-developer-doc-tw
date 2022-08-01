@@ -32,7 +32,7 @@ MetaMask是一個免費且安全的錢包，它允許web程序與多種區塊鏈
 
 要添加BTTC到MetaMask，請在這里選擇自定義RPC，並在打開的表單中正確添加BTTC的相關參數。
 
-![](https://i.imgur.com/ISUOONE.png)
+![](https://i.imgur.com/2h1Ui9n.png)
 
 ### 配置自定義代幣
 
@@ -40,7 +40,7 @@ MetaMask是一個免費且安全的錢包，它允許web程序與多種區塊鏈
 
 在MetaMask中選擇Add Token，此處添加的Token為部署在以太坊Ropsten測試網的Test Token，代號為t，地址是`0x414C578d018afa9a4c9acf435a8C5fD042203901`，此代幣僅用於演示。填入代幣地址後，其他信息會自動補全，如圖：
 
-![](https://i.imgur.com/dsVONgk.png)
+![](https://i.imgur.com/rlLeGqH.png)
 
 
 添加完成後，這個代幣將顯示在您MetaMask的賬戶中。
@@ -53,7 +53,7 @@ MetaMask是一個免費且安全的錢包，它允許web程序與多種區塊鏈
 
 點擊右上角的圓形圖案，並點擊Create Account，如圖：
 
-![](https://i.imgur.com/nRINYs1.png)
+![](https://i.imgur.com/I1AegvE.png)
 
 接下來在窗口中輸入賬戶名（可以使用任何名字）即可。
 
